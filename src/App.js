@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 export default function App() {
   return (
     <Router>
-      <div className="flex flex-col h-screen justify-between" id="page-wrapper">
+      <div className="flex flex-col h-screen font-sans" id="page-wrapper">
         <Navbar />
         <Route path="/" component={Content} />
         <Footer />
