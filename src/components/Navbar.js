@@ -1,22 +1,24 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
-import DropDown from '../components/DropDown';
-import HeaderLinks from '../components/HeaderLinks';
+import DropDown from './DropDown';
+import HeaderLinks from './HeaderLinks';
+import DarkToggle from './DarkToggle';
+import { linkList } from '../util/linkList';
 
-function Header() {
+function Navbar(colors) {
     return (
-        <div className="flex justify-end bg-gray-700 text-white">
+        <div className={`flex justify-end ${colors.styles} shadow-md`}>
             <nav className="h-auto flex w-screen py-2 justify-start">
                 <div id="brand" className="pr-4 pl-3 mr-4 flex items-center">
                     <img src={logo} alt="Logo" className="h-10 w-10 mr-3" />
                     <h3>Website Branding</h3>
                 </div>
             </nav>
-            <DropDown />
-            <HeaderLinks />
+            <DarkToggle />
+            <DropDown routes={linkList} />
+            <HeaderLinks routes={linkList} />
         </div>
     )
 }
 
-export default Header;
+export default Navbar;

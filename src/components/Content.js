@@ -2,7 +2,7 @@ import React from 'react';
 
 function Content() {
     return (
-        <div className="mb-auto h-auto mx-4 md:mx-14 my-3">
+        <div className="mb-auto mx-4 md:mx-3 my-3">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis velit ipsum, eu 
             vestibulum dolor consectetur vitae. Fusce vel mi nibh. Ut a risus et metus dignissim tempus. 
