@@ -28,4 +28,7 @@
         * Links mapped from the array in *linkList* in the *util* folder
     * DarkToggle
         * Uses **themeContext** to get the current page of the theme stored in the Local Storage of the browser
-        * Toggles night mode, letting **Tailwind CSS** styles switch from normal styles to dark styles and vice versa 
+        * Toggles night mode, letting **Tailwind CSS** styles switch from normal styles to dark styles and vice versa
+    3. Other files explained
+        * **LinkLIst** is a file containing all the routes in your website, with an object that has a pathname and name for the route
+        * **Styles** contains some simple styles that would be used in multiple places throughout the website
