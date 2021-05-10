@@ -9,7 +9,7 @@ import { colors } from './util/styles';
 export default function App() {
   return (
     <Router>
-      <div className={`flex flex-col h-screen font-sans ${colors.content}`} id="page-wrapper">
+      <div className={`flex flex-col h-auto font-sans ${colors.content}`} id="page-wrapper">
         <Navbar styles={colors.nav} />
         <Route path="/" component={Content} />
         <Footer styles={colors.footer}/>
