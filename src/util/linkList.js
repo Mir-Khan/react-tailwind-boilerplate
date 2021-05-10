@@ -4,5 +4,6 @@ in a website*/
 
 export const linkList = [
     { path: '/', name: 'Home' },
-    { path: '/about', name: 'About me' }
+    { path: '/test', name: 'Test another one another one this is really really long' },
+    { path: '/another', name: 'Another test' }
 ];

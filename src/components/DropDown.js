@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 function DropDown({ routes }) {
     const menuItems = routes.map((item, index) =>
-        <Menu.Item className="pb-2" key={`dropdown-link-${index}`}>
+        <Menu.Item className="pb-2" key={index}>
             {({ active }) => (
                 <NavLink to={item.path}>{item.name}</NavLink>
             )}
